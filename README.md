@@ -127,6 +127,8 @@ Verify installation:
 gcc --version
 ```
 
+---
+
 ### Install
 Clone the repository
 ```bash
@@ -136,6 +138,8 @@ Navigate to project directory
 ```bash
 cd Genetic-Algorithms/src
 ```
+
+---
 
 ### Run
 
