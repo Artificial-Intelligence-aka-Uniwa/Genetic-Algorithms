@@ -68,28 +68,28 @@ The results include best solutions, fitness values, and performance metrics over
 
 ## Contents
 
-1. **The World of the Problem** (Pages 4–7)  
+1. **The World of the Problem** 
    Defines coordinates of settlements and problem objectives.
 
-2. **The Genetic Algorithm in Application for 25 Settlements** (Pages 7–8)  
+2. **The Genetic Algorithm in Application for 25 Settlements** 
    GA parameterization and initial population setup.
 
-3. **The Final State of the Problem for 25 Settlements** (Pages 8–10)  
+3. **The Final State of the Problem for 25 Settlements**  
    Best solutions and corresponding fitness after GA convergence.
 
-4. **Commenting on the Genetic Algorithm Solutions** (Pages 10–11)  
+4. **Commenting on the Genetic Algorithm Solutions**   
    Analysis of solution quality and convergence behavior.
 
-5. **Show Paradoxical Solutions?** (Pages 11–12)  
+5. **Show Paradoxical Solutions?**  
    Discussion of unexpected or non-intuitive GA outcomes.
 
-6. **The Genetic Algorithm in Application for 12 Settlements** (Pages 12–13)  
+6. **The Genetic Algorithm in Application for 12 Settlements**  
    Implementation for a smaller problem instance.
 
-7. **The Final State of the Problem for 12 Settlements** (Pages 13–15)  
+7. **The Final State of the Problem for 12 Settlements** 
    GA results and performance metrics for 12 settlements.
 
-8. **Differences in the Solutions of the Two Problems** (Page 15)  
+8. **Differences in the Solutions of the Two Problems**  
    Comparative analysis highlighting insights between problem sizes.
 
 ---
