@@ -58,12 +58,25 @@ The results include best solutions, fitness values, and performance metrics over
 
 ## Table of Contents
 
-| Section | Title          | Description                                    |
-|--------:|----------------|------------------------------------------------|
-| assign  | Assignment     | Contains assignments and tasks                 |
-| docs    | Documentation  | Project documentation, guides, and notes       |
-| src     | Source Code    | All source code files and implementations      |
-| res     | Results        | Output results                                 |
+| Section | Folder | Description |
+|------:|--------|-------------|
+| 1 | `assign/` | Assignment material for the Artificial Intelligence course |
+| 1.1 | `assign/Assignment_2_AI.pdf` | Assignment description in English |
+| 1.2 | `assign/Εργασία_2_ΤΝ.pdf` | Assignment description in Greek |
+| 2 | `docs/` | Project documentation for genetic algorithms |
+| 2.1 | `docs/Genetic-Algorithms.pdf` | English documentation covering genetic algorithms |
+| 2.2 | `docs/Γενετικοί-Αλγόριθμοι.pdf` | Greek documentation covering genetic algorithms |
+| 3 | `res/` | Execution results and outputs |
+| 3.1 | `res/results_12.txt` | Results for parameter set 12 |
+| 3.2 | `res/results_25.txt` | Results for parameter set 25 |
+| 4 | `src/` | Source code and input files |
+| 4.1 | `src/Halkidiki_12.txt` | Input data for parameter set 12 |
+| 4.2 | `src/Halkidiki_25.txt` | Input data for parameter set 25 |
+| 4.3 | `src/project_GA_new.c` | Main C implementation of the genetic algorithm |
+| 4.4 | `src/simpleGA_new.c` | Supporting C code for genetic algorithm |
+| 4.5 | `src/simpleGA_new.h` | Header file for supporting functions |
+| 4.6 | `src/Project1.dev` | Development or IDE project file |
+| 5 | `README.md` | Repository overview and usage instructions |
 
 
 ## Contents
