@@ -49,7 +49,7 @@
 
 ---
 
-## Overview
+# Project Overview
 
 This repository contains a **Genetic Algorithm (GA) implementation** in C for solving combinatorial optimization problems involving settlements in Halkidiki.  
 
@@ -139,9 +139,9 @@ The results include best solutions, fitness values, and performance metrics over
 
 ---
 
-## Installation & Run Guide
+# Installation & Run Guide
 
-### Prerequisites
+## Prerequisites
 
 Ensure a **C compiler** is installed. Recommended:
 
@@ -156,7 +156,7 @@ gcc --version
 
 ---
 
-### Install
+## Install
 Clone the repository
 ```bash
 git clone https://github.com/Artificial-Intelligence-aka-Uniwa/Genetic-Algorithms.git 
@@ -168,9 +168,9 @@ cd Genetic-Algorithms/src
 
 ---
 
-### Run
+## Run
 
-#### Compile the Program 
+### Compile the Program 
 
 For 25 settlements:
 ```bash
@@ -183,7 +183,7 @@ gcc project_GA_new.c simpleGA_new.c -o GA_12 -lm
 ```
 - `-lm` links the math library (required for sqrt, pow).
 
-#### Run the Program
+### Run the Program
 
 For 25 settlements:
 ```bash
@@ -195,7 +195,7 @@ For 12 settlements:
 ./GA_12
 ```
 
-#### Program Execution
+### Program Execution
 
 The GA runs for a predefined number of generations (MAXGENS).
 
@@ -209,7 +209,7 @@ The best genotype and its corresponding distance are printed to the screen and l
 
 After all experiments, mean distances and mean best genes are displayed.
 
-#### Configurable Parameters
+### Configurable Parameters
 
 Adjust GA parameters in simpleGA_new.h:
 
