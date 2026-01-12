@@ -47,6 +47,8 @@
   Athens, January 2023
 </p>
 
+---
+
 ## Overview
 
 This repository contains a **Genetic Algorithm (GA) implementation** in C for solving combinatorial optimization problems involving settlements in Halkidiki.  
