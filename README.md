@@ -225,5 +225,11 @@ Adjust GA parameters in simpleGA_new.h:
 
 Change CITIES_FILE and RESULTS_FILE for 12 or 25 settlements.
 
+---
 
+## Open the Documentation
+1. Navigate to the `docs/` directory
+2. Open the report corresponding to your preferred language:
+    - English: `Genetic-Algorithms.pdf`
+    - Greek: `Γενετικοί-Αλγόριθμοι.pdf`
 
