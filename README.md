@@ -113,7 +113,7 @@ The results include best solutions, fitness values, and performance metrics over
 |     4.4 | `src/simpleGA_new.c`            | Supporting C code for genetic algorithm                    |
 |     4.5 | `src/simpleGA_new.h`            | Header file for supporting functions                       |
 |     4.6 | `src/Project1.dev`              | Development or IDE project file                            |
-|       5 | `README.md`                     | Repository overview and usage instructions                 |
+|       5 | `README.md`                     | Repository overview                                        |
 |       6 | `INSTALL.md`                    | Usage instructions                                         |
 
 ---
