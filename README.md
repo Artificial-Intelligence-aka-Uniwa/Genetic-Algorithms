@@ -8,6 +8,11 @@
   DEPARTMENT OF COMPUTER ENGINEERING AND INFORMATICS
 </p>
 
+<p align="center">
+  <a href="https://www.uniwa.gr" target="_blank">University of West Attica</a> ·
+  <a href="https://ice.uniwa.gr" target="_blank">Department of Computer Engineering and Informatics</a>
+</p>
+
 <hr/>
 
 <p align="center">
@@ -28,6 +33,12 @@
   <a href="https://www.linkedin.com/in/vasilis-athanasiou-7036b53a4/" target="_blank">LinkedIn</a>
 </p>
 
+<hr/>
+
+<p align="center">
+  <strong>Supervision</strong>
+</p>
+
 <p align="center">
   Supervisor: Paris Mastorokostas, Professor
 </p>
@@ -43,28 +54,40 @@
   <a href="https://www.linkedin.com/in/panagiotatselenti/" target="_blank">LinkedIn</a>
 </p>
 
+</hr>
+
+---
+
 <p align="center">
   Athens, January 2023
 </p>
 
 ---
 
-# Project Overview
+<p align="center">
+  <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/open_graph_image/8958295/og_image/optimized/0901-Genetic_Algorithms-Search_and_Optimization_by_Natural_Selection_Dan_Social-c593a24c34612eaba65058efa44e7980.png" width="250"/>
+</p>
 
-This repository contains a **Genetic Algorithm (GA) implementation** in C for solving combinatorial optimization problems involving settlements in Halkidiki.  
+---
+
+# README
+
+## Real Genetic Algorithm Application
+
+This repository contains a **Genetic Algorithm (GA) implementation** in C for solving combinatorial optimization problems involving settlements in Halkidiki.
 
 The program simulates the GA process across a specified number of generations, using:
 
-- **Population Initialization**  
-- **Selection (Roulette Wheel / Proportional)**  
-- **Crossover (Single-Point)**  
-- **Mutation (Random within bounds)**  
-- **Fitness Evaluation (Euclidean Distance to points)**  
+- **Population Initialization**
+- **Selection (Roulette Wheel / Proportional)**
+- **Crossover (Single-Point)**
+- **Mutation (Random within bounds)**
+- **Fitness Evaluation (Euclidean Distance to points)**
 
 Two problem cases are provided:
 
-1. **25 settlements** (`Halkidiki_25.txt`)  
-2. **12 settlements** (`Halkidiki_12.txt`)  
+1. **25 settlements** (`Halkidiki_25.txt`)
+2. **12 settlements** (`Halkidiki_12.txt`)
 
 The results include best solutions, fitness values, and performance metrics over multiple experiments.
 
@@ -72,39 +95,41 @@ The results include best solutions, fitness values, and performance metrics over
 
 ## Table of Contents
 
-| Section | Folder | Description |
-|------:|--------|-------------|
-| 1 | `assign/` | Assignment material for the Artificial Intelligence course |
-| 1.1 | `assign/Assignment_2_AI.pdf` | Assignment description in English |
-| 1.2 | `assign/Εργασία_2_ΤΝ.pdf` | Assignment description in Greek |
-| 2 | `docs/` | Project documentation for genetic algorithms |
-| 2.1 | `docs/Genetic-Algorithms.pdf` | English documentation covering genetic algorithms |
-| 2.2 | `docs/Γενετικοί-Αλγόριθμοι.pdf` | Greek documentation covering genetic algorithms |
-| 3 | `res/` | Execution results and outputs |
-| 3.1 | `res/results_12.txt` | Results for parameter set 12 |
-| 3.2 | `res/results_25.txt` | Results for parameter set 25 |
-| 4 | `src/` | Source code and input files |
-| 4.1 | `src/Halkidiki_12.txt` | Input data for parameter set 12 |
-| 4.2 | `src/Halkidiki_25.txt` | Input data for parameter set 25 |
-| 4.3 | `src/project_GA_new.c` | Main C implementation of the genetic algorithm |
-| 4.4 | `src/simpleGA_new.c` | Supporting C code for genetic algorithm |
-| 4.5 | `src/simpleGA_new.h` | Header file for supporting functions |
-| 4.6 | `src/Project1.dev` | Development or IDE project file |
-| 5 | `README.md` | Repository overview and usage instructions |
+| Section | Folder                          | Description                                                |
+| ------: | ------------------------------- | ---------------------------------------------------------- |
+|       1 | `assign/`                       | Assignment material for the Artificial Intelligence course |
+|     1.1 | `assign/Assignment_2_AI.pdf`    | Assignment description in English                          |
+|     1.2 | `assign/Εργασία_2_ΤΝ.pdf`       | Assignment description in Greek                            |
+|       2 | `docs/`                         | Project documentation for genetic algorithms               |
+|     2.1 | `docs/Genetic-Algorithms.pdf`   | English documentation covering genetic algorithms          |
+|     2.2 | `docs/Γενετικοί-Αλγόριθμοι.pdf` | Greek documentation covering genetic algorithms            |
+|       3 | `res/`                          | Execution results and outputs                              |
+|     3.1 | `res/results_12.txt`            | Results for parameter set 12                               |
+|     3.2 | `res/results_25.txt`            | Results for parameter set 25                               |
+|       4 | `src/`                          | Source code and input files                                |
+|     4.1 | `src/Halkidiki_12.txt`          | Input data for parameter set 12                            |
+|     4.2 | `src/Halkidiki_25.txt`          | Input data for parameter set 25                            |
+|     4.3 | `src/project_GA_new.c`          | Main C implementation of the genetic algorithm             |
+|     4.4 | `src/simpleGA_new.c`            | Supporting C code for genetic algorithm                    |
+|     4.5 | `src/simpleGA_new.h`            | Header file for supporting functions                       |
+|     4.6 | `src/Project1.dev`              | Development or IDE project file                            |
+|       5 | `README.md`                     | Repository overview and usage instructions                 |
+|       6 | `INSTALL.md`                    | Usage instructions                                         |
 
+---
 
-## Contents
+## 1. Contents
 
-1. **The World of the Problem** 
+1. **The World of the Problem**
    Defines coordinates of settlements and problem objectives.
 
-2. **The Genetic Algorithm in Application for 25 Settlements** 
+2. **The Genetic Algorithm in Application for 25 Settlements**
    GA parameterization and initial population setup.
 
 3. **The Final State of the Problem for 25 Settlements**  
    Best solutions and corresponding fitness after GA convergence.
 
-4. **Commenting on the Genetic Algorithm Solutions**   
+4. **Commenting on the Genetic Algorithm Solutions**  
    Analysis of solution quality and convergence behavior.
 
 5. **Show Paradoxical Solutions?**  
@@ -113,7 +138,7 @@ The results include best solutions, fitness values, and performance metrics over
 6. **The Genetic Algorithm in Application for 12 Settlements**  
    Implementation for a smaller problem instance.
 
-7. **The Final State of the Problem for 12 Settlements** 
+7. **The Final State of the Problem for 12 Settlements**
    GA results and performance metrics for 12 settlements.
 
 8. **Differences in the Solutions of the Two Problems**  
@@ -121,115 +146,18 @@ The results include best solutions, fitness values, and performance metrics over
 
 ---
 
-## Technologies Used
+## 2. Technologies Used
 
-- **Programming Language:** C  
-- **Algorithm:** Genetic Algorithm (SGA)  
-- **Key Concepts:**  
-  - Population Initialization  
-  - Fitness Evaluation (Euclidean distance)  
-  - Selection (Roulette Wheel)  
-  - Single-Point Crossover  
-  - Random Mutation  
-- **Data Files:**  
-  - `Halkidiki_12.txt` – Coordinates for 12 settlements  
-  - `Halkidiki_25.txt` – Coordinates for 25 settlements  
-- **Platform:** Cross-platform C compiler (GCC recommended)  
-- **Output:** Log file (`results_12.txt` or `results_25.txt`) for analysis  
-
----
-
-# Installation & Run Guide
-
-## Prerequisites
-
-Ensure a **C compiler** is installed. Recommended:
-
-- **Linux/macOS:** GCC  
-- **Windows:** MinGW or Visual Studio (C compiler)  
-
-Verify installation:
-
-```bash
-gcc --version
-```
-
----
-
-## Install
-Clone the repository
-```bash
-git clone https://github.com/Artificial-Intelligence-aka-Uniwa/Genetic-Algorithms.git 
-```
-Navigate to project directory
-```bash
-cd Genetic-Algorithms/src
-```
-
----
-
-## Run
-
-### Compile the Program 
-
-For 25 settlements:
-```bash
-gcc project_GA_new.c simpleGA_new.c -o GA_25 -lm
-```
-For 12 settlements:
-- Update `simpleGA_new.h` to use NPOINTS=12 and CITIES_FILE="Halkidiki_12.txt"
-```bash
-gcc project_GA_new.c simpleGA_new.c -o GA_12 -lm
-```
-- `-lm` links the math library (required for sqrt, pow).
-
-### Run the Program
-
-For 25 settlements:
-```bash
-./GA_25
-```
-
-For 12 settlements:
-```bash
-./GA_12
-```
-
-### Program Execution
-
-The GA runs for a predefined number of generations (MAXGENS).
-
-Each generation performs:
-- Selection (Roulette Wheel)
-- Crossover (Single-Point)
-- Mutation (Random gene replacement)
-- Fitness evaluation based on Euclidean distance
-
-The best genotype and its corresponding distance are printed to the screen and logged in a results file (results_25.txt or results_12.txt).
-
-After all experiments, mean distances and mean best genes are displayed.
-
-### Configurable Parameters
-
-Adjust GA parameters in simpleGA_new.h:
-
-```
-#define NPOINTS        25      // Number of settlements
-#define POPSIZE        1000    // Population size
-#define PXOVER         0.7     // Crossover probability
-#define PMUTATION      0.1     // Mutation probability
-#define MAXGENS        100     // Max generations
-#define DISLPAYFREQ    50      // Display frequency
-#define EXPERIMENTS    10      // Number of experiments
-```
-
-Change CITIES_FILE and RESULTS_FILE for 12 or 25 settlements.
-
----
-
-## Open the Documentation
-1. Navigate to the `docs/` directory
-2. Open the report corresponding to your preferred language:
-    - English: `Genetic-Algorithms.pdf`
-    - Greek: `Γενετικοί-Αλγόριθμοι.pdf`
-
+- **Programming Language:** C
+- **Algorithm:** Genetic Algorithm (SGA)
+- **Key Concepts:**
+  - Population Initialization
+  - Fitness Evaluation (Euclidean distance)
+  - Selection (Roulette Wheel)
+  - Single-Point Crossover
+  - Random Mutation
+- **Data Files:**
+  - `Halkidiki_12.txt` – Coordinates for 12 settlements
+  - `Halkidiki_25.txt` – Coordinates for 25 settlements
+- **Platform:** Cross-platform C compiler (GCC recommended)
+- **Output:** Log file (`results_12.txt` or `results_25.txt`) for analysis
